@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora - DEV</title>
+</head>
+
+<body>
+    <div>
+        <input id="display" type="text" readonly>
+
+        <button class="gray-button" onclick="clearDisplay()">AC</button>
+        <button class="gray-button" onclick="inverte()">+/-</button>
+        <button class="blue-button" onclick="input('/')">/</button>
+        <button class="blue-button" onclick="input('*')">*</button>
+        <button class="black-button" onclick="input('7')">7</button>
+        <button class="black-button" onclick="input('8')">8</button>
+        <button class="black-button" onclick="input('9')">9</button>
+        <button class="blue-button" onclick="input('-')">-</button>
+        <button class="black-button" onclick="input('4')">4</button>
+        <button class="black-button" onclick="input('5')">5</button>
+        <button class="black-button" onclick="input('6')">6</button>
+        <button class="blue-button" onclick="input('+')">+</button>
+        <button class="black-button" onclick="input('1')">1</button>
+        <button class="black-button" onclick="input('2')">2</button>
+        <button class="black-button" onclick="input('3')">3</button>
+        <button class="blue-button equal" onclick="calculate()">=</button>
+        <button class="black-button zero" onclick="input('0')">0</button>
+        <button class="black-button" onclick="input('.')">.</button>
+    </div>
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
