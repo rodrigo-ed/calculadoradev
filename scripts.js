@@ -9,6 +9,14 @@ function calculate() {
     display.value = eval(display.value);
 }
 
+// Função para inverter o sinal do dispaly
+function inverter() {
+    var display = document.getElementById('display');
+    display = display.value * -1;
+    document.getElementById('display').value = display;
+    
+}
+
 // Função para limpar o display
 function clearDisplay() {
     document.getElementById('display').value = '';
